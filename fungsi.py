@@ -14,3 +14,9 @@ DAFTAR_BERITA = {
     "Paling baru": "newstories",
     "Terbaik": "beststories",
 }
+
+# === Bagian Mikeyy === 
+
+# === Bagian Padmir ===
+
+# === Bagian livirr ===
