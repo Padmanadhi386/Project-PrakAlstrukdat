@@ -1,5 +1,8 @@
 import streamlit as st
 from fungsi import(DAFTAR_BERITA)
+from fungsi import(wajib_login)
+
+wajib_login()
 
 st.title("📰CETAR")
 st.caption("(Cek Tren Teknologi Terbaru)")

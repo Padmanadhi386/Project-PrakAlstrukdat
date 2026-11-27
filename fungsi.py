@@ -8,6 +8,8 @@ import pandas as pd
 import requests
 import streamlit as st
 
+import google.generativeai as genai
+
 URL_NEWSAPI = "https://newsapi.org/v2"
 URL_GEMINI = "https://generativelanguage.googleapis.com/v1beta/models/"
 
@@ -131,3 +133,57 @@ def wajib_login():
             keluar()
             st.switch_page("pages/0_Login.py")
 
+# == padmir ==
+
+def siapkan_gemini():
+    try:
+        api_key = st.secrets["GEMINI_API_KEY"]
+    except Exception:
+        return None
+    genai.configure(api_key=api_key)
+    nama_model = st.secrets.get("GEMINI_MODEL", "gemini-flash-latest")
+    return genai.GenerativeModel(nama_model)
+
+def tanya_gemini(model, prompt, format_json=False):
+    batas_waktu = {"timeout": 30, "retry": None}
+    pengaturan = None
+    if format_json:
+        pengaturan = {"response_mime_type": "application/json"}
+
+    # coba model utama dulu, kalau gagal karena sibuk / tidak ada, coba MODEL_CADANGAN
+    daftar = [model, genai.GenerativeModel(MODEL_CADANGAN)]
+
+    pesan = ""
+    for m in daftar:
+        try:
+            response = m.generate_content(prompt, generation_config=pengaturan,
+                                          request_options=batas_waktu)
+            return response.text
+        except Exception as e:
+            pesan = str(e)
+            sibuk = ("503" in pesan or "504" in pesan or "Deadline" in pesan
+                     or "timed out" in pesan.lower() or "overloaded" in pesan.lower())
+            if sibuk or "404" in pesan:
+                continue        # model ini sibuk / tidak ada, coba model berikutnya
+            break               # error lain (kuota, API key) tidak beres dengan ganti model
+
+    if "429" in pesan:
+        st.error("Kuota Gemini untuk API key ini lagi habis (error 429). Tunggu kira-kira 1 menit, "
+                 "atau kalau sudah dipakai seharian, coba lagi besok.")
+    elif "404" in pesan:
+        st.error("Model Gemini tidak ditemukan. Ganti GEMINI_MODEL di secrets.toml dengan model yang masih tersedia.")
+    elif "API key" in pesan or "400" in pesan or "403" in pesan:
+        st.error("API key Gemini tidak valid. Cek lagi isi secrets.toml.")
+    else:
+        st.error("Semua model Gemini sedang sibuk (error 503 dari server Google). "
+                 "Tunggu 1-2 menit lalu tekan tombolnya lagi.")
+    st.caption("Detail error: " + pesan[:200])
+    return None
+
+
+def daftar_judul_teks(daftar_berita, n=15):
+    teks = ""
+    for i in range(min(n, len(daftar_berita))):
+        b = daftar_berita[i]
+        teks = teks + str(i + 1) + ". " + b["judul"] + " (" + b["sumber"] + ")\n"
+    return teks
