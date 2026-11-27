@@ -1,4 +1,3 @@
-# Halaman 3: grafik tren (visualisasi pakai matplotlib)
 import streamlit as st
 from fungsi import wajib_login
 
@@ -13,4 +12,4 @@ if len(berita) == 0:
     if st.button("Ke Beranda"):
         st.switch_page("Beranda.py")
 else:
-    st.info("Grafik sedang dikerjakan (Tahap 2).")
+    st.info("Grafik baru prosess boss")

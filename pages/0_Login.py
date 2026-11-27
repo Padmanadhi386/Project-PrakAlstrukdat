@@ -3,11 +3,10 @@ from fungsi import baca_akun, cek_login, daftar_akun, siapkan_session
 
 siapkan_session()
 
-st.title("CETAR")
-st.caption("Cek Tren Teknologi Terbaru")
+st.title("📰CETAR")
+st.caption("(Cek Tren Teknologi Terbaru)")
 
 if st.session_state["login"] is not None:
-    # sudah login, tidak perlu isi form lagi
     akun = baca_akun()
     nama = st.session_state["login"]
     if nama in akun:
@@ -36,7 +35,6 @@ else:
                 st.switch_page("Beranda.py")
             else:
                 st.error("Username atau password salah.")
-        st.caption("Akun demo: username **admin**, password **cetar123**")
     else:
         nama_baru = st.text_input("Nama lengkap")
         username_baru = st.text_input("Username (huruf dan angka, minimal 3)")
