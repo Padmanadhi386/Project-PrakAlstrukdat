@@ -1,0 +1,527 @@
+{
+  "status": "ok",
+  "totalResults": 40,
+  "catatan": "Data contoh FIKTIF untuk demo offline. Formatnya sama dengan jawaban NewsAPI.",
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Silicon Post"
+      },
+      "author": "Kevin Park",
+      "title": "Apple opens app store to alternative payment options - Silicon Post",
+      "description": "Developers in more regions can now use their own payment systems.",
+      "url": "https://example.com/silicon-post/apple-opens-app-store-to-alternative",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T22:52:11Z",
+      "content": "Developers in more regions can now use their own payment systems. The full article explains the background and what happens next... [+1518 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gadget Today"
+      },
+      "author": "Maya Lestari",
+      "title": "Database company launches serverless edition - Gadget Today",
+      "description": "The new edition scales automatically and charges only for actual use.",
+      "url": "https://example.com/gadget-today/database-company-launches-serverless-edition",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T22:42:04Z",
+      "content": "The new edition scales automatically and charges only for actual use. The full article explains the background and what happens next... [+3728 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gadget Today"
+      },
+      "author": "Maya Lestari",
+      "title": "An open-source AI agent that runs entirely in the browser - Gadget Today",
+      "description": "Developers released a small AI agent that works offline inside a web browser without sending data to a server.",
+      "url": "https://example.com/gadget-today/an-open-source-ai-agent-that-runs",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T22:30:38Z",
+      "content": "Developers released a small AI agent that works offline inside a web browser without sending data to a server. The full article explains the background and what happens next... [+2517 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Byte Report"
+      },
+      "author": "Kevin Park",
+      "title": "New ransomware group targets hospitals in Europe - Byte Report",
+      "description": "Security researchers warn that a new group is exploiting old VPN vulnerabilities.",
+      "url": "https://example.com/byte-report/new-ransomware-group-targets-hospitals-in",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T22:29:44Z",
+      "content": "Security researchers warn that a new group is exploiting old VPN vulnerabilities. The full article explains the background and what happens next... [+3483 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Silicon Post"
+      },
+      "author": null,
+      "title": "Google releases tools to detect AI-generated images - Silicon Post",
+      "description": "The tools add invisible watermarks that can be checked later.",
+      "url": "https://example.com/silicon-post/google-releases-tools-to-detect-ai-generated",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T21:22:48Z",
+      "content": "The tools add invisible watermarks that can be checked later. The full article explains the background and what happens next... [+1230 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tech Daily"
+      },
+      "author": "Kevin Park",
+      "title": "Google tests AI search summaries in more countries - Tech Daily",
+      "description": "Search results will show short AI-written summaries above the usual list of links.",
+      "url": "https://example.com/tech-daily/google-tests-ai-search-summaries-in",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T21:07:16Z",
+      "content": "Search results will show short AI-written summaries above the usual list of links. The full article explains the background and what happens next... [+1053 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Silicon Post"
+      },
+      "author": "Budi Santoso",
+      "title": "Self-driving taxis launch in two more cities - Silicon Post",
+      "description": "The service will start with a small fleet and a safety driver on board.",
+      "url": "https://example.com/silicon-post/self-driving-taxis-launch-in-two-more",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T20:17:46Z",
+      "content": "The service will start with a small fleet and a safety driver on board. The full article explains the background and what happens next... [+992 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dev Journal"
+      },
+      "author": "Maya Lestari",
+      "title": "Python overtakes other languages in data science survey - Dev Journal",
+      "description": "Most respondents use Python together with SQL for daily analysis work.",
+      "url": "https://example.com/dev-journal/python-overtakes-other-languages-in-data",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T20:09:46Z",
+      "content": "Most respondents use Python together with SQL for daily analysis work. The full article explains the background and what happens next... [+2663 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Data Digest"
+      },
+      "author": "Budi Santoso",
+      "title": "Chip shortage eases as new factories open - Data Digest",
+      "description": "New semiconductor plants in Asia and the US are starting production.",
+      "url": "https://example.com/data-digest/chip-shortage-eases-as-new-factories",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T19:51:46Z",
+      "content": "New semiconductor plants in Asia and the US are starting production. The full article explains the background and what happens next... [+3887 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Byte Report"
+      },
+      "author": "Budi Santoso",
+      "title": "Gaming console gets major update with cloud saves - Byte Report",
+      "description": "The update also adds better parental controls and faster downloads.",
+      "url": "https://example.com/byte-report/gaming-console-gets-major-update-with",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T15:50:13Z",
+      "content": "The update also adds better parental controls and faster downloads. The full article explains the background and what happens next... [+2293 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dev Journal"
+      },
+      "author": "Alex Moreno",
+      "title": "Robot vacuum company fixes camera privacy bug - Dev Journal",
+      "description": "The bug could let attackers view images captured by the robot.",
+      "url": "https://example.com/dev-journal/robot-vacuum-company-fixes-camera-privacy",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T13:43:08Z",
+      "content": "The bug could let attackers view images captured by the robot. The full article explains the background and what happens next... [+2369 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Data Digest"
+      },
+      "author": "James Cole",
+      "title": "AI chatbots struggle with basic math, study finds - Data Digest",
+      "description": "Researchers tested several chatbots on school-level questions with mixed results.",
+      "url": "https://example.com/data-digest/ai-chatbots-struggle-with-basic-math",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T13:22:42Z",
+      "content": "Researchers tested several chatbots on school-level questions with mixed results. The full article explains the background and what happens next... [+1148 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dev Journal"
+      },
+      "author": null,
+      "title": "New password manager uses passkeys by default - Dev Journal",
+      "description": "The app helps users move away from passwords to safer passkey logins.",
+      "url": "https://example.com/dev-journal/new-password-manager-uses-passkeys-by",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T11:33:40Z",
+      "content": "The app helps users move away from passwords to safer passkey logins. The full article explains the background and what happens next... [+2065 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gadget Today"
+      },
+      "author": null,
+      "title": "Developers debate the future of JavaScript frameworks - Gadget Today",
+      "description": "Some teams are moving back to simpler tools with less client-side code.",
+      "url": "https://example.com/gadget-today/developers-debate-the-future-of-javascript",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T09:38:25Z",
+      "content": "Some teams are moving back to simpler tools with less client-side code. The full article explains the background and what happens next... [+3275 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Data Digest"
+      },
+      "author": null,
+      "title": "Linux kernel adds more Rust drivers - Data Digest",
+      "description": "The next kernel release includes several new drivers written in Rust.",
+      "url": "https://example.com/data-digest/linux-kernel-adds-more-rust-drivers",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T09:19:10Z",
+      "content": "The next kernel release includes several new drivers written in Rust. The full article explains the background and what happens next... [+2381 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tech Daily"
+      },
+      "author": "Alex Moreno",
+      "title": "OpenAI rival releases cheaper LLM for developers - Tech Daily",
+      "description": "The model offers similar quality on coding tasks at a fraction of the price.",
+      "url": "https://example.com/tech-daily/openai-rival-releases-cheaper-llm-for",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T09:00:42Z",
+      "content": "The model offers similar quality on coding tasks at a fraction of the price. The full article explains the background and what happens next... [+1103 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Byte Report"
+      },
+      "author": "Rina Hartono",
+      "title": "Startup builds open-source database for AI apps - Byte Report",
+      "description": "The vector database helps AI applications search large collections of documents.",
+      "url": "https://example.com/byte-report/startup-builds-open-source-database-for-ai",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T08:32:52Z",
+      "content": "The vector database helps AI applications search large collections of documents. The full article explains the background and what happens next... [+3435 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dev Journal"
+      },
+      "author": "Maya Lestari",
+      "title": "Microsoft adds AI assistant to its spreadsheet app - Dev Journal",
+      "description": "Users can ask questions about their data in plain language and get charts automatically.",
+      "url": "https://example.com/dev-journal/microsoft-adds-ai-assistant-to-its",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T08:23:54Z",
+      "content": "Users can ask questions about their data in plain language and get charts automatically. The full article explains the background and what happens next... [+1322 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cloud Weekly"
+      },
+      "author": "Alex Moreno",
+      "title": "Smartphone sales recover after two slow years - Cloud Weekly",
+      "description": "Analysts say cheaper mid-range phones with AI features are driving demand.",
+      "url": "https://example.com/cloud-weekly/smartphone-sales-recover-after-two-slow",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T06:04:26Z",
+      "content": "Analysts say cheaper mid-range phones with AI features are driving demand. The full article explains the background and what happens next... [+2186 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Byte Report"
+      },
+      "author": "Rina Hartono",
+      "title": "Phishing attacks now use AI-generated voices - Byte Report",
+      "description": "Security teams warn employees to verify phone calls that ask for money transfers.",
+      "url": "https://example.com/byte-report/phishing-attacks-now-use-ai-generated-voices",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T05:58:29Z",
+      "content": "Security teams warn employees to verify phone calls that ask for money transfers. The full article explains the background and what happens next... [+1793 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tech Daily"
+      },
+      "author": "Alex Moreno",
+      "title": "Open-source community releases free alternative to paid AI tools - Tech Daily",
+      "description": "Volunteers built a set of AI tools that anyone can host themselves.",
+      "url": "https://example.com/tech-daily/open-source-community-releases-free-alternative-to",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T04:37:33Z",
+      "content": "Volunteers built a set of AI tools that anyone can host themselves. The full article explains the background and what happens next... [+2530 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Circuit News"
+      },
+      "author": "Alex Moreno",
+      "title": "Wearable device tracks sleep using AI - Circuit News",
+      "description": "The ring-shaped device gives daily tips based on heart rate and movement.",
+      "url": "https://example.com/circuit-news/wearable-device-tracks-sleep-using-ai",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T04:21:15Z",
+      "content": "The ring-shaped device gives daily tips based on heart rate and movement. The full article explains the background and what happens next... [+3150 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Byte Report"
+      },
+      "author": "Alex Moreno",
+      "title": "Major cloud outage disrupts thousands of websites - Byte Report",
+      "description": "A configuration error at a large cloud provider took many popular sites offline for three hours.",
+      "url": "https://example.com/byte-report/major-cloud-outage-disrupts-thousands-of",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T03:47:18Z",
+      "content": "A configuration error at a large cloud provider took many popular sites offline for three hours. The full article explains the background and what happens next... [+1186 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Data Digest"
+      },
+      "author": "Rina Hartono",
+      "title": "Government proposes new rules for AI safety - Data Digest",
+      "description": "The draft law would require companies to test powerful AI models before release.",
+      "url": "https://example.com/data-digest/government-proposes-new-rules-for-ai",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T03:21:12Z",
+      "content": "The draft law would require companies to test powerful AI models before release. The full article explains the background and what happens next... [+3637 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Circuit News"
+      },
+      "author": "Budi Santoso",
+      "title": "Hackers exploit unpatched routers to build botnet - Circuit News",
+      "description": "Experts recommend updating router firmware and changing default passwords.",
+      "url": "https://example.com/circuit-news/hackers-exploit-unpatched-routers-to-build",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T03:15:12Z",
+      "content": "Experts recommend updating router firmware and changing default passwords. The full article explains the background and what happens next... [+3397 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cloud Weekly"
+      },
+      "author": "James Cole",
+      "title": "Data breach exposes millions of user passwords - Cloud Weekly",
+      "description": "The leaked database contained weakly hashed passwords from an online forum.",
+      "url": "https://example.com/cloud-weekly/data-breach-exposes-millions-of-user",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T01:33:30Z",
+      "content": "The leaked database contained weakly hashed passwords from an online forum. The full article explains the background and what happens next... [+3143 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Data Digest"
+      },
+      "author": "Maya Lestari",
+      "title": "Open-source office suite reaches 10 million users - Data Digest",
+      "description": "The project grew quickly after schools switched from paid software.",
+      "url": "https://example.com/data-digest/open-source-office-suite-reaches-10-million",
+      "urlToImage": null,
+      "publishedAt": "2026-11-24T00:56:31Z",
+      "content": "The project grew quickly after schools switched from paid software. The full article explains the background and what happens next... [+3402 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Data Digest"
+      },
+      "author": "James Cole",
+      "title": "How small teams use AI to write better code - Data Digest",
+      "description": "Engineers share how AI coding assistants change daily work, from tests to documentation.",
+      "url": "https://example.com/data-digest/how-small-teams-use-ai-to",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T22:29:00Z",
+      "content": "Engineers share how AI coding assistants change daily work, from tests to documentation. The full article explains the background and what happens next... [+1383 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Circuit News"
+      },
+      "author": "Sara Lindqvist",
+      "title": "Startup raises funding for AI tutor app - Circuit News",
+      "description": "The app explains school subjects step by step in several languages.",
+      "url": "https://example.com/circuit-news/startup-raises-funding-for-ai-tutor",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T21:33:58Z",
+      "content": "The app explains school subjects step by step in several languages. The full article explains the background and what happens next... [+916 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dev Journal"
+      },
+      "author": "Maya Lestari",
+      "title": "Security flaw found in popular open-source library - Dev Journal",
+      "description": "Maintainers released a patch and urged developers to update immediately.",
+      "url": "https://example.com/dev-journal/security-flaw-found-in-popular-open-source",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T21:02:41Z",
+      "content": "Maintainers released a patch and urged developers to update immediately. The full article explains the background and what happens next... [+3763 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Byte Report"
+      },
+      "author": "Maya Lestari",
+      "title": "Universities add AI courses to computer science degrees - Byte Report",
+      "description": "New classes teach machine learning, data ethics, and prompt design.",
+      "url": "https://example.com/byte-report/universities-add-ai-courses-to-computer",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T18:24:57Z",
+      "content": "New classes teach machine learning, data ethics, and prompt design. The full article explains the background and what happens next... [+1850 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Silicon Post"
+      },
+      "author": "Budi Santoso",
+      "title": "Quantum computing startup reaches new error-correction milestone - Silicon Post",
+      "description": "Researchers demonstrated a logical qubit that is more stable than its physical parts.",
+      "url": "https://example.com/silicon-post/quantum-computing-startup-reaches-new-error-correction",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T18:00:21Z",
+      "content": "Researchers demonstrated a logical qubit that is more stable than its physical parts. The full article explains the background and what happens next... [+1522 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Silicon Post"
+      },
+      "author": "James Cole",
+      "title": "Electric car maker unveils solid-state battery prototype - Silicon Post",
+      "description": "The company claims the battery can charge to 80 percent in twelve minutes.",
+      "url": "https://example.com/silicon-post/electric-car-maker-unveils-solid-state-battery",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T17:15:07Z",
+      "content": "The company claims the battery can charge to 80 percent in twelve minutes. The full article explains the background and what happens next... [+3238 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dev Journal"
+      },
+      "author": "Kevin Park",
+      "title": "Cloud costs push startups back to their own servers - Dev Journal",
+      "description": "Some companies save money by running workloads on rented physical machines.",
+      "url": "https://example.com/dev-journal/cloud-costs-push-startups-back-to",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T16:42:32Z",
+      "content": "Some companies save money by running workloads on rented physical machines. The full article explains the background and what happens next... [+2529 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cloud Weekly"
+      },
+      "author": "Alex Moreno",
+      "title": "Rust adoption grows inside big tech companies - Cloud Weekly",
+      "description": "More teams are rewriting critical services in Rust to reduce memory safety bugs.",
+      "url": "https://example.com/cloud-weekly/rust-adoption-grows-inside-big-tech",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T15:18:09Z",
+      "content": "More teams are rewriting critical services in Rust to reduce memory safety bugs. The full article explains the background and what happens next... [+1142 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cloud Weekly"
+      },
+      "author": "Sara Lindqvist",
+      "title": "Meta releases new open-weight AI model - Cloud Weekly",
+      "description": "The model can be downloaded and run on local hardware for research and commercial use.",
+      "url": "https://example.com/cloud-weekly/meta-releases-new-open-weight-ai-model",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T14:58:48Z",
+      "content": "The model can be downloaded and run on local hardware for research and commercial use. The full article explains the background and what happens next... [+3051 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tech Daily"
+      },
+      "author": "James Cole",
+      "title": "Apple announces new chip focused on on-device AI - Tech Daily",
+      "description": "The new processor is designed to run language models directly on phones and laptops.",
+      "url": "https://example.com/tech-daily/apple-announces-new-chip-focused-on",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T14:38:14Z",
+      "content": "The new processor is designed to run language models directly on phones and laptops. The full article explains the background and what happens next... [+2397 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Data Digest"
+      },
+      "author": "James Cole",
+      "title": "Satellite internet expands to rural Indonesia - Data Digest",
+      "description": "New ground stations will bring faster internet to remote islands.",
+      "url": "https://example.com/data-digest/satellite-internet-expands-to-rural-indonesia",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T14:30:12Z",
+      "content": "New ground stations will bring faster internet to remote islands. The full article explains the background and what happens next... [+2005 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cloud Weekly"
+      },
+      "author": "Maya Lestari",
+      "title": "Python 3.15 beta brings faster startup time - Cloud Weekly",
+      "description": "The latest beta focuses on performance improvements and a smaller memory footprint.",
+      "url": "https://example.com/cloud-weekly/python-3.15-beta-brings-faster-startup",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T13:41:45Z",
+      "content": "The latest beta focuses on performance improvements and a smaller memory footprint. The full article explains the background and what happens next... [+2086 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cloud Weekly"
+      },
+      "author": null,
+      "title": "Browser makers agree on new web security standard - Cloud Weekly",
+      "description": "The standard makes it harder for websites to track users across sites.",
+      "url": "https://example.com/cloud-weekly/browser-makers-agree-on-new-web",
+      "urlToImage": null,
+      "publishedAt": "2026-11-23T12:26:21Z",
+      "content": "The standard makes it harder for websites to track users across sites. The full article explains the background and what happens next... [+3313 chars]"
+    }
+  ]
+}
